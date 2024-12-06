@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+.header h2 {
+    margin: 10px 0 0;
+    font-size: 24px;
+    color: #666;
+}
+.columns {
+    display: flex;
+}
+.left-column, .right-column {
+    padding: 20px;
+}
+.left-column {
+    width: 30%;
+    border-right: 1px solid #ddd;
+}
+.right-column {
+    width: 70%;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h3 {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.contact a, .skills a, .education p {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.skills, .work-experience {
+    list-style: none;
+    padding: 0;
+}
+.skills li, .work-experience li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.work-experience .job-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+.work-experience .company-name {
+    font-style: italic;
+    font-size: 16px;
+}
+.contact-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
